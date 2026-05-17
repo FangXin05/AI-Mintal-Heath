@@ -457,9 +457,9 @@ const startAIResponse = (sessionId, text) => {
 
       // 流结束信号
       if (event.event === 'done' || raw === '[DONE]') {
-        isAiTying.value = false // ✅ 重置打字状态
+        isAiTying.value = false
         controller.abort()
-        loadSessionEmotion(currentSession.value.id) // ✅ 传正确的 id
+        loadSessionEmotion(currentSession.value.id)
         scrollToBottom()
         return
       }
