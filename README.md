@@ -8,7 +8,7 @@ AI 心理健康管理平台，提供智能心理疏导与情绪追踪服务。
 [![Pinia](https://img.shields.io/badge/Pinia-2.x-F7D51E)](https://pinia.vuejs.org/)
 
 ---
-
+各页面预览详见demo文件夹
 ## 📖 项目简介
 
 > 结合 AI 大模型的自然语言对话能力，为用户提供 7×24 小时心理健康支持，同时支持情绪日记记录与数据可视化分析。
