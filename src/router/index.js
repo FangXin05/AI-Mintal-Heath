@@ -96,7 +96,7 @@ const FrontendRouters = [
         component: () => import('@/views/frontendKnowledge.vue')
       },
       {
-        path: 'frontendKnowledgeArticle/article/:id',
+        path: '/frontendKnowledgeArticle/article/:id',
         component: () => import('@/views/articleDetail.vue'),
         props: true
       }
